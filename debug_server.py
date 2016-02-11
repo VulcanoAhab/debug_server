@@ -67,7 +67,7 @@ class DebugHandler(SimpleHTTPRequestHandler):
 #########################################################
 if __name__ == '__main__':
     
-    parser=argparse.ArgumentParser(description='very simple debug server')
+    parser=argparse.ArgumentParser(description='Very simple debug server')
     parser.add_argument('-P', '--port', default=8000)
     parser.add_argument('-H', '--host', default='127.0.0.1')
     args = parser.parse_args()
